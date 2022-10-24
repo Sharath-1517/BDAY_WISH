@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-image: linear-gradient(to bottom, #2A2E29 0%, #859971 51%, #C2BDA7 100%);
+    /* background-size: cover; */
+    color: black;
+}
+
+#name {
+    border-bottom: 2px solid white;
+    /* color: white; */
+}
+
+#main {
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 1px 10px px white;
+}
+
+#bff-img {
+    padding: 1px;
+    width: 300px;
+    background: #F7EF8A;
+    border-radius: 50%;
+    border: 6px solid ;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    /* background: chocolate; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: -5px;
+    text-decoration: underline;
+    /* background: chocolate; */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 45px;
+}
+
+.gift-title {
+    margin-top: 75px;
+    margin-bottom: 5px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("Myimages/upload_your_file.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("Myimages/upload_your_file.gif");
+}
+
+/* #gift-img-genius {
+    height: 250px;
+} */
+
+
+#gift-img-genius:hover {
+    background-image: url("Myimages/upload_your_file.gif");
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+}
+
+#gift-img-badass {
+    height: 250px;
+}
+
+#gift-img-badass:hover {
+    background-image: url("Myimages/upload_your_file.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gift-img-cheers {
+    height: 300px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("Myimages/upload_your_file.gif");
+}
